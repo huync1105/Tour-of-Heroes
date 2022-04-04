@@ -1,0 +1,19 @@
+<div class="py-3">
+
+  <div class="flex justify-content-between">
+    <div>
+      <button pButton pRipple type="button" label="Add hero" class="surface-200 text-900 hover:text-50 hover:bg-bluegray-800 mr-2 border-none"></button>
+      <!-- <button pButton pRipple type="button" label="Heroes" class="surface-200 text-900 hover:text-50 hover:bg-bluegray-800 border-none"></button> -->
+    </div>
+    <span class="p-input-icon-left">
+      <i class="pi pi-search"></i>
+      <input type="text" pInputText placeholder="Search hero" [(ngModel)]="value3" />
+    </span>
+  </div>
+
+  <div class="mt-3 grid">
+    <app-dashboard class="md:col-6 sm:col-12"></app-dashboard>
+    <app-hero-list class="md:col-6 sm:col-12"></app-hero-list>
+  </div>
+
+</div>

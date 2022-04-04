@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HeroesModule } from './heroes/heroes.module';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -12,7 +13,7 @@ import {TabViewModule} from 'primeng/tabview';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    TabViewModule
+    HeroesModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
